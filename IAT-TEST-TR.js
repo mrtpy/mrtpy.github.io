@@ -259,7 +259,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			instSecondCombined : '<div><p align="center" style="font-size:20px; font-family:arial">' +
 				'<font color="#000000"><u>Bölüm blockNum / nBlocks </u><br/><br/></p>' +
 				'<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-				'Bu bölüm önceki bölümle aynıdır..<br/>' +
+				'Bu bölüm önceki bölümle aynıdır.<br/>' +
 				'<font color="#336600">leftCategory</font> ve <font color="#0000ff">leftAttribute</font> için <b>E</b> tuşunu kullanınız.<br/>' +
 				'<font color="#336600">rightCategory</font> ve <font color="#0000ff">rightAttribute</font> için  <b>I</b> tuşunu kullanınız.<br/>' +
 				'Her öğe yalnızca bir kategoriye aittir.<br/><br/>' +
@@ -334,7 +334,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//Error messages in the feedback
 			manyErrors: 'Çok fazla yanlış olduğu için ölçüm yapılamadı.',
 			tooFast: 'Çok hızlı ilerlendiği için ölçüm yapılamadı.',
-			notEnough: '<p> Sonucu belirlemek için yeterli deneme yoktu. &#128528; </p>',
+			notEnough: <p> Sonucu belirlemek için yeterli deneme yoktu. &#128528; </p>,
 		};
 
 		// extend the "current" object with the default
