@@ -332,9 +332,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			fb_equal_CatAvsCatB : 'categoryA ile attribute1 ve categoryB ile attribute2 ilişkilendiren bilnçsiz önyargıya sahip değilsiniz.',
 
 			//Error messages in the feedback
-			manyErrors: 'Çok fazla yanlış olduğu için ölçüm yapılamadı.',
-			tooFast: 'Çok hızlı ilerlendiği için ölçüm yapılamadı.',
-			notEnough: 'Sonucu belirlemek için yeterli deneme yoktu.'
+			manyErrors: 'Çok fazla yanlış olduğu için ölçüm yapılamadı. <span style='font-size:100px;'>&#128528;</span>',
+			tooFast: 'Çok hızlı ilerlendiği için ölçüm yapılamadı. <span style='font-size:100px;'>&#128528;</span> ',
+			notEnough: 'Sonucu belirlemek için yeterli deneme yoktu.<span style='font-size:100px;'>&#128528;</span>'
 		};
 
 		// extend the "current" object with the default
