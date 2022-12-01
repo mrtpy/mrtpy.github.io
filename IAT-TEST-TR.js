@@ -321,15 +321,15 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//In Project Implicit's website, you can see that we added much text to explain that there is still much unknown about the meaning of these results.
 			//We strongly recommend that you provide all these details in the debriefing of the experiment.
 			debriefingTextBottom : 'This result is not a definitive assessment of your attitudes. It is provided for educational purposes only.  Press space to continue.', //Will be shown below the feedback text. 
-            		debriefingTextBottomTouch : 'Sonucu görmek için boşluk tuşuna basınız.',
+            debriefingTextBottomTouch : 'Sonucu görmek için boşluk tuşuna basınız.',
 			//The default feedback messages for each cutoff -
 			//attribute1, and attribute2 will be replaced with the name of attribute1 and attribute2.
 			//categoryA is the name of the category that is found to be associated with attribute1,
 			//and categoryB is the name of the category that is found to be associated with attribute2.
 			fb_strong_Att1WithCatA_Att2WithCatB : 'categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren güçlü düzeyde bilinçsiz önyargıya sahipsiniz.',
 			fb_moderate_Att1WithCatA_Att2WithCatB : 'categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren orta düzeyde bilinçsiz önyargıya sahipsiniz.',
-			fb_slight_Att1WithCatA_Att2WithCatB : ' categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren az düzeyde bilinçsiz önyargıya sahipsiniz.',
-			fb_equal_CatAvsCatB : 'categoryA ile attribute1 ve categoryB ile attribute2 ilişkilendiren bilnçsiz önyargıya sahip değilsiniz.' ,
+			fb_slight_Att1WithCatA_Att2WithCatB : 'categoryB ile attribute2 ve categoryA ile attribute1 ilişkilendiren az düzeyde bilinçsiz önyargıya sahipsiniz.',
+			fb_equal_CatAvsCatB : 'categoryA ile attribute1 ve categoryB ile attribute2 ilişkilendiren bilnçsiz önyargıya sahip değilsiniz.',
 
 			//Error messages in the feedback
 			manyErrors: 'Çok fazla yanlış olduğu için ölçüm yapılamadı.',
