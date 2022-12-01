@@ -334,7 +334,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//Error messages in the feedback
 			manyErrors: '<div><p align="center" style="font-size:20px; font-family:arial">' +'<p align="center">Hazır olduğunda <b>boşluk tuşuna</b> bas.</font></p></div>',
 			tooFast: '<div><p align="center" style="font-size:20px; font-family:arial">' +'<p align="center">Hazır olduğunda <b>boşluk tuşuna</b> bas.</font></p></div>',
-			notEnough: '<div><p align="center" style="font-size:20px; font-family:arial">' +'<p align="center">Hazır olduğunda <b>boşluk tuşuna</b> bas.</font></p></div>',
+			notEnough: '<div><p align="center" style="font-size:20px; font-family:arial">' +'<p align="center">Hazır olduğunda <b>boşluk tuşuna</b> bas.</font></p></div>'
 		};
 
 		// extend the "current" object with the default
