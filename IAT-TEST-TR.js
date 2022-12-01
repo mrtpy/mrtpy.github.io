@@ -334,7 +334,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//Error messages in the feedback
 			manyErrors: 'Çok fazla yanlış olduğu için ölçüm yapılamadı.',
 			tooFast: 'Çok hızlı ilerlendiği için ölçüm yapılamadı.',
-			notEnough: '<div>' + '<p> Sonucu belirlemek için yeterli deneme yoktu. &#128528; </p>'+ '</div>',
+			notEnough: 'Sonucu belirlemek için yeterli deneme yoktu. ☺',
 		};
 
 		// extend the "current" object with the default
