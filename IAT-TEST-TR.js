@@ -321,7 +321,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//In Project Implicit's website, you can see that we added much text to explain that there is still much unknown about the meaning of these results.
 			//We strongly recommend that you provide all these details in the debriefing of the experiment.
 			debriefingTextBottom : 'This result is not a definitive assessment of your attitudes. It is provided for educational purposes only.  Press space to continue.', //Will be shown below the feedback text. 
-            debriefingTextBottomTouch : 'This result is not a definitive assessment of your attitudes. It is provided for educational purposes only.  Touch the green area to continue.',
+            		debriefingTextBottomTouch : 'This result is not a definitive assessment of your attitudes. It is provided for educational purposes only.  Touch the green area to continue.',
 			//The default feedback messages for each cutoff -
 			//attribute1, and attribute2 will be replaced with the name of attribute1 and attribute2.
 			//categoryA is the name of the category that is found to be associated with attribute1,
@@ -334,7 +334,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//Error messages in the feedback
 			manyErrors: 'Çok fazla yanlış olduğu için ölçüm yapılamadı.',
 			tooFast: 'Çok hızlı ilerlendiği için ölçüm yapılamadı.',
-			notEnough: 'Sonucu belirlemek için yeterli deneme yoktu.'
+			notEnough: 'Sonucu belirlemek için yeterli deneme yoktu.',
 		};
 
 		// extend the "current" object with the default
