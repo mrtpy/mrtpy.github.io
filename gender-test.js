@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://merte1.github.io/IAT-TR.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://mrtpy.github.io/IAT-TEST-TR.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 
 	return iatExtension({
